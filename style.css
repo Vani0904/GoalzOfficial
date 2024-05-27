@@ -22,7 +22,7 @@ p{
     padding: 30px 0;
 }
 .hero-text{
-    width: 60%;
+    width: 65%;
     margin-right: 50px;
     padding: 20px;
 }
@@ -43,7 +43,7 @@ p{
     align-items: center;
     text-align: center;
 }
-.about-me-section h2 {
+.about-me-section h1 {
     text-align: center;
     padding: 20px 0;
 }
@@ -63,7 +63,7 @@ p{
     align-items: center;
 
 }
-.project-section h2 {
+.project-section h1 {
     text-align: center;
     padding-bottom: 10px;
 }
