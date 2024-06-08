@@ -8,7 +8,7 @@
     color: #fff;
 }
 body {
-    background-color: rgb(29, 29, 29);
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(49, 49, 49));
 }
 p{
     font-size: 19px;
@@ -48,8 +48,10 @@ p{
     padding: 20px 0;
 }
 .about-me-section p {
+    width: 70%;
     text-align: center;
     padding: 10px;
+    margin: 0 auto;
 }
 .about-me-section{
     min-width: 100%;
@@ -67,34 +69,39 @@ p{
     text-align: center;
     padding-bottom: 40px;
 }
+.project-section h2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
 .row{
     display: flex;
     width: 80%;
     margin: 70px 40px;
     min-height: 300px;
 }
-.row-right{
-    width: 50%;
-}
+.row-right,
 .row-left{
+    display: flex;
     width: 50%;
 }
 .row-right p{
     padding: 10px;
     text-align: center;
+    align-content: center;
 }
 .row-left p{
     padding: 10px;
     text-align: center;
+    align-content: center;
+}
+.row-right img,
+.row-left img{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
 }
 .row-right img{
-    width: 100%;
-    height: auto;
-
-}
-.row-left img{
-    width: 100%;
-    height: auto;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 730px) {
@@ -114,6 +121,8 @@ p{
     }
     .row-left,.row-right{
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     #reverse-row{
         flex-direction: column-reverse;
