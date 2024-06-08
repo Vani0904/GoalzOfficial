@@ -56,7 +56,6 @@ p{
 .about-me-section{
     min-width: 100%;
     height: 400px;
-    background-color: rgb(77, 75, 75);
     margin: 30px auto;
 }
 .project-section{
@@ -96,11 +95,8 @@ p{
 }
 .row-right img,
 .row-left img{
-    width: 80%;
+    width: 400px;
     height: auto;
-    margin: 0 auto;
-}
-.row-right img{
     margin: 0 auto;
 }
 
@@ -127,4 +123,8 @@ p{
     #reverse-row{
         flex-direction: column-reverse;
     }
+    .row-right img,
+    .row-left img{
+        width: 80%;
+}
 }
