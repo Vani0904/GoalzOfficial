@@ -52,9 +52,12 @@ p{
 .about-me-section h1 {
     text-align: center;
     padding: 20px 0;
+    border-top: solid 1px #630a90c0;;
+    border-bottom: solid 1px #630a90c0;
+    width: 100%;
+
 }
 .about-me-section p {
-    width: 80%;
     height: 200px;
     text-align: center;
     padding: 10px;
@@ -71,9 +74,16 @@ p{
     align-items: center;
 
 }
+.project-desc{
+    width: 80%;
+}
 .project-section h1 {
     text-align: center;
-    padding-bottom: 40px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    width: 100%;
+    border-top: solid 1px #630a90c0;;
+    border-bottom: solid 1px #630a90c0;;
 }
 .project-section h2 {
     text-align: center;
@@ -90,14 +100,13 @@ p{
 .row-right,
 .row-left{
     display: flex;
-    width: 50%;
+    width: 70%;
+    align-items: center;
 }
-.row-right p{
-    padding: 10px;
-    text-align: center;
-    align-content: center;
-}
-.row-left p{
+
+.row-left p,
+.row-right p,
+.project-section p{
     padding: 10px;
     text-align: center;
     align-content: center;
@@ -108,12 +117,32 @@ p{
     height: auto;
     margin: 0 auto;
 }
-@media only screen and (max-width: 590px) {
-    .hero-img img {
-        width: 320px;
-    }
+.text-bg{
+    display: flex;
+    height: 380px;
+    background-color:rgb(43, 43, 43);
+    margin: 12px;
+    border-radius: 4px;
 }
-@media only screen and (max-width: 730px) {
+.text-pj-desc{
+    display: flex;
+    background-color:rgb(43, 43, 43);
+    margin: 12px;
+    width: 600px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.text-bg-abt{
+    display: flex;
+    height: 280px;
+    width: 780px;
+    background-color:rgb(37, 37, 37);
+    margin: 12px auto;
+    border-radius: 4px;
+    justify-content: center;
+}
+@media only screen and (max-width: 800px) {
     .hero-section{
         flex-direction: column;
     }
@@ -141,7 +170,30 @@ p{
         width: 80%;
     }
     .about-me-section{
-        height: 670px;
+        height: 580px;
         margin: 0 auto 40px auto;
+    }
+    .text-bg-abt{
+        height: 300px;
+        width: auto;
+        margin: 12px;
+    }
+    .text-pj-desc{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 590px) {
+    .hero-img img {
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 542px){
+    .text-bg-abt{
+        height: 400px !important;
+    }
+}
+@media only screen and (max-width: 412px){
+    .text-bg-abt{
+        height: 480px !important ;
     }
 }
