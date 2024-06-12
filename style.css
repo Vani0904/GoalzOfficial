@@ -45,17 +45,22 @@ p{
 .hero-contact-details{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     margin: 0 0 20px 20px;
 }
 .hero-contact-details a {
     font-size: 50px;
 }
+.hero-contact-details-ig p{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a5a5a5;
+}
 .hero-contact-details i {
     color: #701b9b;
 }
 .hero-contact-details p{
-    margin-left: 15px;
+    margin-bottom: 30px;
     font-size: 24px;
 } 
 .hero-section{
@@ -116,7 +121,6 @@ p{
 }
 .row{
     display: flex;
-    width: 80%;
     margin: 70px 40px;
     min-height: 300px;
 }
@@ -125,6 +129,12 @@ p{
     display: flex;
     width: 70%;
     align-items: center;
+}
+.pj2-row-left,
+.pj2-row-right{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
 }
 
 .row-left p,
@@ -140,17 +150,23 @@ p{
     width: 340px;
     height: auto;
     margin: 0 auto;
+    padding: 0 10px;
+}
+.pj2-row-left img,
+.pj2-row-right img{
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 .text-bg{
     display: flex;
     height: 380px;
-    background-color:rgb(43, 43, 43);
     margin: 12px;
     border-radius: 4px;
 }
 .text-pj-desc{
     display: flex;
-    background-color:rgb(43, 43, 43);
     margin: 12px;
     width: 600px;
     border-radius: 4px;
@@ -166,7 +182,17 @@ p{
     border-radius: 4px;
     justify-content: center;
 }
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 1020px) {
+    .row-right img,
+    .row-middle img,
+    .row-left img{
+        width: 230px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0 10px;
+    }   
+}
+@media only screen and (max-width: 900px) {
     .top-hero{
         flex-direction: column;
     }
@@ -191,27 +217,18 @@ p{
     .hero-content{
         flex-direction: column;
     }
-    
-    .hero-text,
-    .hero-img {
-        padding-right: 0;
-    }
-    .row{
-        flex-direction: column;
-    }
-    .row-left,.row-right,.row-middle{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-    #reverse-row{
-        flex-direction: column-reverse;
-    }
     .row-right img,
     .row-middle img,
     .row-left img{
-        width: 80%;
+        width: 190px;
+    }
+    .pj2-row-left img,
+    .pj2-row-right img{
+        width: 180px;
+    }
+    .hero-text,
+    .hero-img {
+        padding-right: 0;
     }
     .about-me-section{
         height: 580px;
@@ -229,6 +246,21 @@ p{
 @media only screen and (max-width: 590px) {
     .hero-img img {
         width: 320px;
+    }
+    .row-left,.row-right,.row-middle{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .row-right img,
+    .row-middle img,
+    .row-left img{
+        width: 170px;
+    }
+    .pj2-row-left img,
+    .pj2-row-right img{
+        width: 180px;
     }
 }
 @media only screen and (max-width: 542px){
