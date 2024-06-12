@@ -121,7 +121,7 @@ p{
 }
 .row{
     display: flex;
-    margin: 70px 40px;
+    margin: 30px 40px;
     min-height: 300px;
 }
 .row-right,
