@@ -134,7 +134,6 @@ p{
 .pj2-row-right{
     display: flex;
     width: 70%;
-    justify-content: space-evenly;
 }
 
 .row-left p,
