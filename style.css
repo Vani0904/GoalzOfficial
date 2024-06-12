@@ -252,11 +252,12 @@ p{
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
+        flex-direction: column;
     }
     .row-right img,
     .row-middle img,
     .row-left img{
-        width: 170px;
+        width: 120px;
     }
     .pj2-row-left img,
     .pj2-row-right img{
