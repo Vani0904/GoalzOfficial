@@ -142,7 +142,6 @@ p{
 .project-section p{
     padding: 10px;
     text-align: center;
-    align-content: center;
 }
 .row-right img,
 .row-middle img,
@@ -220,11 +219,11 @@ p{
     .row-right img,
     .row-middle img,
     .row-left img{
-        width: 190px;
+        width: 235px;
     }
     .pj2-row-left img,
     .pj2-row-right img{
-        width: 180px;
+        width: 295px;
     }
     .hero-text,
     .hero-img {
@@ -243,9 +242,21 @@ p{
         width: auto;
     }
 }
+
+
+@media only screen and (max-width: 700px) {
+    .row-right img,
+    .row-middle img,
+    .row-left img{
+        width: 195px;
+    }  
+}
 @media only screen and (max-width: 590px) {
     .hero-img img {
         width: 320px;
+    }
+    .row{
+        flex-direction: column;
     }
     .row-left,.row-right,.row-middle{
         width: 100%;
@@ -257,11 +268,12 @@ p{
     .row-right img,
     .row-middle img,
     .row-left img{
-        width: 120px;
+        width: 240px;
     }
     .pj2-row-left img,
     .pj2-row-right img{
-        width: 180px;
+        width: 250px;
+        padding-bottom: 20px;
     }
 }
 @media only screen and (max-width: 542px){
