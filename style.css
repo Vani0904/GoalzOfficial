@@ -158,6 +158,14 @@ p{
     margin: 0 auto;
     padding: 0 20px;
 }
+.pj3-row-left img,
+.pj3-row-middle img,
+.pj3-row-right img{
+    width: 340px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 10px;
+}
 .text-bg{
     display: flex;
     height: 380px;
@@ -189,7 +197,15 @@ p{
         height: auto;
         margin: 0 auto;
         padding: 0 10px;
-    }   
+    }
+    .pj3-row-left img,
+    .pj3-row-middle img,
+    .pj3-row-right img{
+        width: 230px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0 10px;
+    }      
 }
 @media only screen and (max-width: 900px) {
     .top-hero{
@@ -225,6 +241,11 @@ p{
     .pj2-row-right img{
         width: 295px;
     }
+    .pj3-row-left img,
+    .pj3-row-middle img,
+    .pj3-row-right img{
+        width: 235px;
+    }
     .hero-text,
     .hero-img {
         padding-right: 0;
@@ -247,9 +268,11 @@ p{
 @media only screen and (max-width: 700px) {
     .row-right img,
     .row-middle img,
-    .row-left img{
+    .row-left img,
+    .pj3-row-left img,
+    .pj3-row-middle img,
+    .pj3-row-right img{
         width: 195px;
-    }  
 }
 @media only screen and (max-width: 590px) {
     .hero-img img {
@@ -272,6 +295,12 @@ p{
     }
     .pj2-row-left img,
     .pj2-row-right img{
+        width: 250px;
+        padding-bottom: 20px;
+    }
+    .pj3-row-left img,
+    .pj3-row-middle img,
+    .pj3-row-right img{
         width: 250px;
         padding-bottom: 20px;
     }
