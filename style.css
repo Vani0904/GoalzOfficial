@@ -68,9 +68,7 @@ p{
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background: 
-        linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.815)), /* Dark overlay */
-        url('assets/PROJECT 1 IMG 4.jpg'); 
+    background: linear-gradient(rgba(0, 0, 0, 0.877), rgba(0, 0, 0, 0.815)),url('assets/PROJECT 1 IMG 4.jpg'); 
     background-size: cover;
     background-position: center;
     transition: background-image 1s ease-in-out;
