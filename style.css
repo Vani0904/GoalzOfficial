@@ -9,7 +9,6 @@
 }
 body {
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(49, 49, 49));
-    background-color: #000;
 }
 p{
     font-size: 19px;
