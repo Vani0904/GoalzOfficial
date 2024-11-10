@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' defer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
     <title>Goalz</title>
 </head>
 <body>
@@ -14,41 +15,42 @@
                 <div class="hero-text">
                     <div class="top-hero">
                         <div class="hero-img">
-                            <img src="assets/goalz logo.png" alt="Goalz Logo">
+                            <img data-src="assets/goalz logo.webp" class="lazyload" width="500px" height="450px" alt="Goalz Logo">
                         </div>
-                        <div class="hero-contact-details">
-                            <div class="hero-contact-details-ig">
-                                <a href="https://www.instagram.com/official.goalz/" aria-label="Instagram Link page"><i class='bx bxl-instagram'></i></a>
-                                <p>Official.Goalz</p>
+                        <div class="hero-details">
+                            <div class="hero-description-cta">
+                                <p>Explore the art of <span>Fashion Design</span> and find the perfect look that defines you.</p>
+                                <a href="#projects"><input type="button" class="cta-btn" id="scrollButton" value="View Projects"></input></a>
                             </div>
-                            <p>Contact: Official.Goalz.ods@gmail.com</p>
                         </div>
                     </div>
-                    <p>Explore the art of Fashion Design at Goalz and find the perfect look that defines you.</p>
                 </div>
             </div>
         </div>
         <div class="about-me-section">
-            <h1>ABOUT ME</h1>
-                <p>My name is Olga Da Silva. I am a 18 year old Student born in Sao Tome, raised in Portugal. My goal in life is to become a creative stylist or officially own a streetwear brand called GOALZ. The word 
-                "GOALZ" was made using my own name Olga and the last letter of my middle name "Cruz". But that is not all, I want people to see Goalz as a brand that they can find their iconic style despite the focus on
-                streetwear. I want you as my client to feel your best at all times that is what GOALZ is all about.
-            </p>
+            <h1 id="about-me">ABOUT ME</h1>
+            <div class="about-details">
+                    <img data-src="assets/about-me-img.jpg" class="lazyload" alt="About me Image">
+                    <p>My name is Olga Da Silva. I am a 18 year old Student born in Sao Tome, raised in Portugal. My goal in life is to become a creative stylist or officially own a streetwear brand called GOALZ. The word 
+                        "GOALZ" was made using my own name Olga and the last letter of my middle name "Cruz". But that is not all, I want people to see Goalz as a brand that they can find their iconic style despite the focus on
+                        streetwear. I want you as my client to feel your best at all times that is what GOALZ is all about.
+                    </p>
+            </div>
         </div>
         <div class="project-section">
-            <h1>PROJECTS</h1>
+            <h1 id="projects">PROJECTS</h1>
             <h2>3048 - INTO THE FUTURE</h2>
             <div class="text-pj-desc"><div class="project-desc"><p>Have you ever wondered what the future might have in store for us? "3048 - Into The Future" is my interpretation of it. A blend of a dysopian tale and a Utopian Fantasy. So which will it be? A world in chaos or a world in harmony.</p></div></div>
          
             <div class="row">
                 <div class="row-left">
-                    <img src="assets/PROJECT 3L IMG 1.jpg" alt="Project 3 Outfit">
+                    <img data-src="assets/PROJECT 3L IMG 1.webp" class="lazyload" alt="Project 3 Outfit">
                 </div>
                 <div class="row-middle">
-                    <img src="assets/PROJECT 3D IMG 6.jpeg" alt="Project 3 Outfit">
+                    <img data-src="assets/PROJECT 3D IMG 6.webp" class="lazyload" alt="Project 3 Outfit">
                 </div>
                 <div class="row-right">
-                    <img src="assets/PROJECT 3L IMG 3.jpg" alt="Project 3 Outfit">
+                    <img data-src="assets/PROJECT 3L IMG 3.webp" class="lazyload" alt="Project 3 Outfit">
                 </div>
             </div>
             <div class="row">
@@ -58,10 +60,10 @@
             <div class="text-pj-desc"><div class="project-desc"><p>Wanna feel cozy but still look sexy and feel confident in your body? </p></div></div>
             <div class="row">
                 <div class="pj2-row-left">
-                    <img src="assets/PROJECT 2 IMG 1.jpg" alt="Project 2 Outfit">
+                    <img data-src="assets/PROJECT 2 IMG 1.webp" class="lazyload" alt="Project 2 Outfit">
                 </div>
                 <div class="pj2-row-right"> 
-                    <img src="assets/PROJECT 2 IMG 2.jpg" alt="Project 2 Outfit">
+                    <img data-src="assets/PROJECT 2 IMG 2.webp" class="lazyload" alt="Project 2 Outfit">
                 </div>
             </div>
             <div class="row">
@@ -71,22 +73,42 @@
             <div class="text-pj-desc"><div class="project-desc"><p>Most important things that are valued in our lives cause the world to suffer and one of them is clothes.</p></div></div>
             <div class="row">
                 <div class="pj3-row-left">
-                    <img src="assets/PROJECT 1 IMG 1.jpg" alt="Project 1 Outfit">
+                    <img data-src="assets/PROJECT 1 IMG 1.webp" class="lazyload" alt="Project 1 Outfit">
                 </div>
                 <div class="pj3-row-middle"> 
-                    <img src="assets/PROJECT 1 IMG 2.jpg" alt="Project 1 Outfit">
+                    <img data-src="assets/PROJECT 1 IMG 2.webp" class="lazyload" alt="Project 1 Outfit">
                 </div>
                 <div class="pj3-row-right">
-                    <img src="assets/PROJECT 1 IMG 3.jpg" alt="Project 1 Outfit">
+                    <img data-src="assets/PROJECT 1 IMG 3.webp" class="lazyload" alt="Project 1 Outfit">
                 </div>
             </div>
             <div class="row">
                 <p>Sustainability was my first college project and was my favourite project. For this project I made patchwork jeans and they could also make into shorts if removed all the safety pins. Patchwork is a very repetitive process and you need patience for it but once it is finished it creates a masterpiece. This was a fun project because you could only use what was around you, you couldn't buy any new fabric, you just had to use random pieces of fabric you found in the classroom or whatever you had at home that you didn't need. Iused mostly just different denims in all different colours to make my patchwork legs. </p>
             </div>
-            <div class="footer">
-                <p> © 2024 Goalz Official</p>
+        </div>
+        <div class="contact-me-section">
+            <h1>CONTACT ME</h1>
+            <div class="contact-me-details">
+                <div class="ig-info">
+                    <p>Instagram: <a href="https://www.instagram.com/official.goalz/">Official.Goalz</p></a>
+                    <a href="https://www.instagram.com/official.goalz/" aria-label="Instagram Link page"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="post">
+                    <input type="hidden" name="access_key" value="b038c29f-9d82-412f-87fa-6de7a258ab83">
+                    <input name="name" type="text" placeholder="Enter name" required>
+                    <input name="email" type="email" placeholder="Enter email" required>
+                    <textarea name="message" placeholder="Enter message"></textarea>
+                    ~
+                    
+                    ~<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <button type="submit">Submit</button>
+                </form>
             </div>
+        </div>
+        <div class="footer">
+            <p> © 2024 Goalz Official</p>
         </div>
     </main>
 </body>
 </html>
+
